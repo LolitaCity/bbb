@@ -17,7 +17,7 @@ class MY_Controller extends CI_Controller
         parent::__construct();
         $this -> uid = $this-> session -> userdata('sellerid');
         $sql = 'SELECT value FROM zxjy_system WHERE varname = "platform"';
-        $this -> platform = $this -> cacheSqlQuery('platform_name', $sql, 0, true, 'row') -> value;
+        $this -> platform = $this -> cacheSqlQuery('platform_name', $sql, 0, true, 'row');
  //       if (!empty($this -> uid) && $this -> uid != 89)
 //        {
   //         exit('系统正在调试');

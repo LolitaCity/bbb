@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://bbb.jensin.com/';
+$config['base_url'] = 'http://dev.bbb.com/';
 
 define('PLATFORM', 'esx');
 //define('ZFB_NUM', 'zhangtingyu1127@sina.cn');
@@ -388,10 +388,18 @@ $config['encryption_key'] = '';
 | except for 'cookie_prefix' and 'cookie_httponly', which are ignored here.
 |
 */
-$config['sess_driver'] = 'files';
+//$config['sess_driver'] = 'files';
+//$config['sess_cookie_name'] = 'ci_session';
+//$config['sess_expiration'] = 7200;
+//$config['sess_save_path'] = FCPATH.'public/sess_save_path';
+//$config['sess_match_ip'] = FALSE;
+//$config['sess_time_to_update'] = 300;
+//$config['sess_regenerate_destroy'] = FALSE;
+
+$config['sess_driver'] = 'redis';
 $config['sess_cookie_name'] = 'ci_session';
 $config['sess_expiration'] = 7200;
-$config['sess_save_path'] = FCPATH.'public/sess_save_path';
+$config['sess_save_path'] = "tcp://180.76.190.150:6379";
 $config['sess_match_ip'] = FALSE;
 $config['sess_time_to_update'] = 300;
 $config['sess_regenerate_destroy'] = FALSE;

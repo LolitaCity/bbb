@@ -102,6 +102,7 @@ class CI_Controller {
 	private function memberlogin(){
 	    if($this->memberlogin){
 	        $session_data = $this->session->userdata('sellername');
+            //$session_data   =$_SESSION['sellername']??"";
 	        if(!$session_data){
 	            $url = "/";
 	            echo "<script language='javascript' type='text/javascript'>";

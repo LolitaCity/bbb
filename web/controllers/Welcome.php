@@ -19,6 +19,7 @@ class Welcome extends MY_Controller {
 	 * @see https://codeigniter.com/user_guide/general/urls.html
 	 */
     public function __construct(){
+
         parent::__construct();
         $this->load->model('User_model','user');
         $this->load->model('Sys_model','sys');
@@ -218,8 +219,11 @@ class Welcome extends MY_Controller {
                     $this->session->set_userdata('sellername', $info->Username);
                     $this->session->set_userdata('sellernick', $info->NickName);
                     $this->session->set_userdata('sellerid', $info->id);
+//                    RedisCache::set("a","b");
                 }
+//                var_dump($this->session->userdata());exit;
                 //$this -> updateTaskDel();  //更新三张任务表中超时取消字段del
+
                 show(1, '登陆成功');
             }
             else

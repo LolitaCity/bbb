@@ -26,8 +26,8 @@ class RedisCache
     {
         if (!self::$instance instanceof Redis)   //如果没有对象实例化Redis，并主动实例化并返回
         {
-            self::$instance = new Redis();
-            self::$instance -> connect('127.0.0.1', 6379);
+            self::$instance = new \Redis();
+            self::$instance -> connect('180.76.190.150', 6379);
 			self::$instance -> select(1);
         }
         return self::$instance;
