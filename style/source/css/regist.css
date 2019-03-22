@@ -1,0 +1,58 @@
+.regbg{
+    background:url("../images/regbg.jpg")no-repeat center;width: 100%;height:720px;
+    position: relative; }
+.formbox{width: 500px;
+    overflow: hidden;
+    background-color: rgba(255,255,255,1);
+    position: absolute;
+    left: 50%;
+    margin: 60px 0 0-250px;
+    padding: 20px;
+    border-radius: 10px;}
+.formbox .line{height: 30px; border-bottom: solid 1px #E6E6E6;}
+.formbox .line h1{font-weight: normal;font-size: 18px;color: #bb0a0a;}
+.formbox dl{border-bottom: solid 1px #e6e6e6;overflow: hidden;padding: 13px 30px;}
+.formbox dl:last-child{border: none}
+.formbox dt{float: left;
+    font-size: 14px;
+    color: #333;
+    width: 70px;
+    text-align: right;
+    margin-right: 5px;
+    height: 40px;
+    line-height: 40px;}
+.formbox dd{float: left}
+.formbox dd input.input-text{border: solid 1px #DDDDDD;width: 250px;height: 35px;border-radius: 2px;}
+.formbox dd input.input-btn{background: #bb0a0a;color: #fff;width: 200px;height: 35px;}
+.formbox dd.pwdstrong span{float: left;
+    width: 50px;padding: 1px 0;
+    background: #1e9223;
+    margin-top: 12px;
+    border-right: solid 1px #fff;
+    color: #fff;
+    text-align: center; }
+.formbox dd.pwdstrong span.cur{background-color: red}
+.input100{width: 100px!important;}
+.sendbtn{cursor: pointer;display: inline-block;background: #eee;border-radius: 5px;margin-left: 10px;padding: 5px 10px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

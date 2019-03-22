@@ -1,0 +1,79 @@
+
+        .input_305
+        {
+            border: 1px solid #ddd;
+            height: 35px;
+            line-height: 35px;
+            width: 200px;
+        }
+        .select_120
+        {
+            border: 1px solid #ddd;
+            height: 35px;
+            line-height: 35px;
+            width: 80px;
+        }
+        #MoneyManage
+        {
+            background: #a70101;
+            color: White;
+        }
+        .zjgl-right_2
+        {
+            margin-top: 8px;
+        }
+        /*微信端提现窗口*/
+        .weixin
+        {
+            width: 980px;
+            font-size: 14px;
+        }
+        .weixin h3
+        {
+            height: 60px;
+            line-height: 60px;
+        }
+        .weixin h3 label
+        {
+            float: left;
+        }
+        .weixin h3 a
+        {
+            float: left;
+            margin: 15px 0px 0px 20px;
+        }
+        .wx_content
+        {
+            display: none;
+        }
+        .wx_ct_1
+        {
+            padding: 20px;
+            border: 1px dashed #ccc;
+        }
+        .wx_ct_1 h4
+        {
+            margin-bottom: 10px;
+            font-size: 16px;
+        }
+        .wx_ct_1 li
+        {
+            line-height: 25px;
+        }
+        .mar_top_20
+        {
+            margin-top: 20px;
+            background: url('../images/erwm.png') no-repeat right 0px;
+            width: 80%;
+            padding-right: 20%;
+        }
+        .wx_display
+        {
+            width: 100%;
+            text-align: center;
+        }
+        .wx_display img
+        {
+            width: 20px;
+            margin: 10px auto;
+        }

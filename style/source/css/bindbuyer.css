@@ -1,0 +1,53 @@
+.notice_box{background: #f5f5f5;border: solid 1px #eee;padding: 0 0 10px 15px;}
+.notice_box h1{font-size: 16px;line-height: 40px;border-bottom: solid 1px #ddd;font-weight: normal;color: #c90001;}
+table,tr,td{border:none;}
+.formbox{border: solid 1px #eee;border-top: none;padding: 20px 0px 20px;}
+
+.formbox li{height: 40px;margin: 15px 0;}
+.formbox .Lbox{float:left;text-align: right;width: 100px;margin-right: 10px;}
+.formbox .Rbox{float:left;}
+.formbox  select{width:200px;width: 100px;height: 30px;outline: none;}
+.formbox  .lbinput{width:280px;height:25px;border:solid 1px #ccc;padding:5px 0 5px 10px;line-height:25px;border-radius:3px}
+.formbox  .upinput{width: 80px;text-align: center;background: #1e9223;line-height: 35px;margin-left: 10px;padding: 0;color: #fff;}
+.formbox .notice_txt{color:#bb0a0a;text-decoration:underline;display:inline-block;margin-left:3px;cursor:pointer;position:relative;}
+.formbox .notice_txt .notice_img{position:absolute;top:20px;left:0;width:800px;background:#fff;padding:10px;border-radius:5px;display:none}
+.formbox .notice_txt img{width:100%}
+.formbox .sub_btn{background:#bb0a0a;width: 200px;height: 45px;color: #fff;margin-left: 40px;margin-top: 20px;font-size: 16px;}
+.formbox li.region{height: auto;}
+.formbox li.region table{background: #f5f5f5;width: 520px;margin-left: 20px;}
+.formbox li.region table input{padding: 0!important;margin-right: 5px;}
+li.region table td{text-align: left}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,30 @@
+﻿.button-c
+{
+    background: #4882f0;
+    color: #fff;
+    text-align: center;
+    line-height: 22px;
+    font-size: 12px;
+    cursor: pointer;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
+    padding: 0px 10px 0px 10px;
+}
+.button-c:hover
+{
+    background: #2f6fea;
+}
+.ln
+{
+    font-size: 14px;
+    font-weight: bold;
+    color: Black;
+}
+.ln:hover
+{
+    text-decoration:none;
+    color: #4882f0;
+}

@@ -1,0 +1,50 @@
+﻿@charset "utf-8";
+.black_overlay {display: none; position: fixed; 
+                top: 0%; left: 0%;  width: 100%; height: 100%; 
+                background-color:black; z-index: 1001; 
+               -moz-opacity:0.2; opacity:.2; filter: alpha(opacity=20);}
+.ycgl_tc{ position: fixed;display: none; z-index: 1002; left: 50%; top: 50%;  margin: 0px auto; font-size: 14px;font-family: "Microsoft YaHei"; background: #fff;}
+.ycgl_450_300{ margin-left:-225px; margin-top:-150px; width:450px; height:300px;}
+.ycgl_400_240{width:400px; height:240px; margin-left:-200px; margin-top:-120px;}
+.ycgl_400_200{width:400px; height:200px; margin-left:-200px; margin-top:-100px;}
+.ycgl_450_330{width:450px; height:330px; margin-left:-225px; margin-top:-165px;}
+.ycgl_400_300{width:400px; height:300px; margin-left:-200px; margin-top:-150px;}
+.ycgl_400_260{width:400px; height:240px; margin-left:-200px; margin-top:-120px;}
+.ycgl_620_630{width:620px; height:630px; margin-left:-310px; margin-top:-315px;}
+.ycgl_620_600{width:620px; height:600px; margin-left:-310px; margin-top:-315px;}
+.h3_4882f0{background:#4882f0; color:#fff; height:50px; line-height:50px; padding-left:20px;}
+.ycgl_tc input ,.ycgl_tc select{ border-radius:2px;border: 1px solid #C6C6C6; padding-left:10px; outline: 0;}
+.ycgl_tc input{height:30px; line-height:30px;}
+.ycgl_tc select{height:34px; line-height:34px;}
+.ycgl_tc input:hover ,.ycgl_tc select:hover{border:1px solid #4882f0;}
+.select_240{width:240px;}
+.input_228{width:228px;}
+.h3_4882f0  a img{float:right;}
+.h90{height:90px;}
+.pad_50{padding:50px 30px;}
+/*设置默认提现银行卡*/
+.tx_ul{padding:20px 30px; width:100%;}
+.tx_ul li{width:100%; display:inline-block; height:35px; line-height:35px; margin-top:10px;}
+.tx_ul input,.tx_ul select{float:left;}
+.tx_ul label{width:120px; float:left; text-align:right; margin-right:10px;}
+.tx_ul a{float:left;}
+.left_100{ width:280px; margin:20px auto;}
+.left_400{width:400px; margin:20px auto;}
+.left_100 a ,.left_400 a{float:left; margin-right:20px;}
+
+.tc_tishi h3{height:55px; line-height:55px; text-align:center; font-size:18px; border-bottom:1px solid #ddd;}
+.pad_30{padding:20px 30px; line-height:25px;}
+.marauto{margin:0px auto; width:120px;}
+.class_span span{display:block;}
+.V_record{padding:20px;}
+.V_record p{line-height:23px;}
+.V_xingxi{ width:100%; padding-top:10px; display:inline-block;}
+.v_ul {width:324px; float:left;}
+.v_ul li{line-height:30px;}
+.V_xingxi span{float:right; width:220px;}
+.V_xingxi span h4{margin-bottom:5px;}
+.V_xingxi img{width:220px;}
+.V_textarea_1 h4{margin-bottom:5px;}
+.V_textarea textarea{width:98%; height:90px; margin-top:15px;padding:1%; text-align:left;}
+.V_textarea_1 textarea{width:98%; height:50px; margin-bottom:15px; background:#ccc; padding:1%; text-align:left;}
+

@@ -1,0 +1,68 @@
+﻿@charset "utf-8";
+.cmqh{display:inline-block;}
+.h3_4882f0{background:#4882f0; color:#fff; height:50px; line-height:50px; padding-left:20px;}
+.tx_ul input ,.ycgl_tc select{ border-radius:2px;border: 1px solid #C6C6C6; padding-left:10px; outline: 0;}
+.tx_ul input{height:30px; line-height:30px;}
+.tx_ul select{height:34px; line-height:34px;}
+.tx_ul input:hover ,.ycgl_tc select:hover{border:1px solid #4882f0;}
+.select_240{width:240px;}
+.input_228{width:228px;}
+.input_328{width:328px;}
+.h3_4882f0  a img{float:right;}
+/*设置默认提现银行卡*/
+.tx_txt{padding:20px 30px; border-bottom:1px dashed #ddd; }
+.tc_title{margin-top:15px; padding-left:50px; font-size:14px;}
+.tx_ul {padding:0px 30px;}
+.tx_ul li{width:100%; display:inline-block; line-height:35px; margin-top:10px;}
+.tx_txt li{font-size:14px;height:30px; line-height:30px;}
+.tx_ul input,.tx_ul select{float:left;}
+.tx_ul label ,.tx_txt label{font-size:14px;width:120px; float:left; text-align:right; margin-right:10px;}
+.tx_ul a{float:left;}
+.tx_ul p{float:left; width:330px; margin-top:8px; line-height:20px;}
+.left_100{ width:280px; margin:20px auto; height:30px;}
+.left_400{width:400px; margin:20px auto;}
+.left_100 a ,.left_400 a{float:left; margin-right:20px;}
+
+
+.tc_tishi h3{height:55px; line-height:55px; text-align:center; font-size:18px; border-bottom:1px solid #ddd;}
+.pad_30{padding:20px 30px; line-height:25px;}
+.marauto{margin:0px auto; width:120px;}
+.class_span span{display:block;}
+.V_record{padding:20px;}
+.V_record p{line-height:23px;}
+.V_xingxi{border-top:1px dashed #ddd; padding-top:10px; margin-top:10px; display:inline-block;}
+.v_ul {width:324px; float:left;}
+.v_ul li{line-height:30px;}
+.V_xingxi span{float:right; width:220px;}
+.V_xingxi span h4{margin-bottom:5px;}
+.V_xingxi img{width:220px;}
+.V_textarea textarea{width:98%; height:90px; margin-top:15px;padding:1%; text-align:left;}
+.V_textarea_1 textarea{width:98%; height:50px; margin-bottom:15px; background:#ccc; padding:1%; text-align:left;}
+.zzcg{width:275px;margin:20px auto;}
+.zzcg label{width:120px; text-align:right; float:left;}
+.zzcg li{ height:35px; line-height:35px; border-bottom:1px dashed #ddd; font-size: 15px;}
+.zzcg li span{float:left; margin-left:10px;}
+.pad_30 h4{ font-size:16px;}
+.sj_zzsb_ul{padding:20px 30px;}
+.sj_zzsb_ul li{ height:30px; line-height:30px; margin-bottom:10px;}
+.sj_zzsb_ul span ,.sj_zzsb_ul input{float:left;}
+.sj_zzsb_ul span {margin:0px 15px; }
+.w_288{margin:30px auto; width:288px; font-size:16px;}
+.textarea_345_80{width:345px; height:80px; margin-top:15px;}
+.label_20{padding:10px 30px; width:475px; font-size:15px; display:inline-block;}
+.label_20 li{height: 30px;}
+.label_20 label{margin-right:20px;}
+.upload{padding:20px 30px; font-size:15px;}
+.h_150{height:150px;}
+.tc_yhk{ height:460px;}
+.tc_yhk_h415{height:415px;}
+.upload h4{margin-bottom:20px;}
+.upload label ,.upload a ,.label_20 label ,.label_20 a{float:left;}
+.upload img{width:77px; height:77px; margin-left:25px; }
+
+/*单选按钮样式*/
+.mar_top_20{margin-top:20px;}
+.hr_dashed{border-bottom:1px dashed #ccc;}
+.radio_box h3{padding-left:25px; height: 45px; line-height:45px;}
+.sj_zzsb_ul li{}
+.radio_box ul li.selected { background:url(../img/radio2.png) no-repeat left center; cursor:pointer;}

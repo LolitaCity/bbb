@@ -1,0 +1,103 @@
+    body ,html{ min-width:980px; height: 100%; color:#222;overflow-y: auto !important;
+    padding-right: 0 !important;}
+    body{overflow-y: auto !important;
+    padding-right: 0 !important;}
+    li{list-style:none;}
+
+   
+        .sj-mail-left h2
+        {
+            background: #bb0a0a none repeat scroll 0 0;
+            border-bottom: 1px solid #ddd;
+            font-size: 14px;
+            height: 40px;
+            line-height: 40px;
+            padding-left: 10px;
+            color: #fff;
+        }
+        #Home
+        {
+            background: #a70101;
+            color: White;
+        }
+        .skmain2_l2 ul li
+        {
+            height: 31px;
+            line-height: 31px;
+        }
+        .skmain2_l2 li .lihover
+        {
+            padding-top: 0px;
+        }
+        
+
+    .banner{width:100%; background:url(../images/banner.png) no-repeat center top; height:405px;}
+    .ban_1100{width:1100px; margin: 0px auto; position:relative;}
+    .bannerleft img{position:absolute; left:-50px; top:30px; opacity:0;}
+    .banneright{width:365px; height:330px; background:#fff; position:absolute; right:-50px; top:40px; opacity:0;}
+    .ban_tab {height:50px; }
+    .ban_tab span{height:50px; line-height:50px; width:50%;float:left; text-align:center; font-size:18px; background:#e8e8e8; cursor: pointer;}
+    .ban_tab .cur{background:url(../images/sanjiao.png) no-repeat center bottom #bb0a0a; color:#fff;border-top:6px solid #bb0a0a; margin-top:-6px;}
+    .tabContant{ padding:10px 20px;}
+    .tabContant label{font-size:16px;}
+    .checklist {list-style: none;margin: 0;padding: 0;}
+    .checklist dd,.checklist1 dd {float: left; width:107px; height:30px; position: relative; margin-left:12px;}
+    .checklist dd,.checklist dt,.checklist1 dt,.checklist1 dd {float: left; height: 30px; line-height: 30px; color: #666;}
+    .checklist dd.selected { background: url(../images/checkblue.png) no-repeat 0 0;}
+    .checklist dd.selected .checkbox-select {background: url(../images/checkblue.png) no-repeat 0 0; display: none;}
+    .checkbox-select:hover{background:url(../images/checkgrey1.png) no-repeat 0 0;;}
+    .checklist1 input{ background: #fff; width: 107px; border: none; height:30px; float: left;}
+    .input_div1{height:35px; margin-top:7px;}
+    .checkbox-select {display: block; float: left; position: absolute; left: 0px;  width:92px; height:30px;  background: url(../images/checkgrey.png) no-repeat 0 0; 
+        color: #666; 
+        padding-left:15px; 
+        line-height: 28px; 
+        text-decoration: 
+        none; 
+        font-size: 14px;}
+    .checklist dd input {display: none;}
+    a.checkbox-deselect {
+      display: none;
+      color: white;
+      font-weight: bold;
+      text-decoration: none;
+      position: absolute;
+      left: 0px;
+    }
+    .checklist_div1{ width:100%; clear:both; height:45px;}
+    .checklist dd.selected a.checkbox-deselect { width:92px; height:30px;  display: block; padding-left:15px; font-size: 14px; font-weight: normal; line-height: 30px;}
+    .input_div1 label,.inputjine{ height:35px; line-height:35px; float:left;}
+    .checklist dd label {display: block; text-align: center; padding: 8px;}
+    .inputjine{width:225px;text-align:center; border:1px solid #d9d9d9; outline:none;border-radius:2px;}
+    .inputjine:hover{border:1px solid #bb0a0a;}
+    .input_div1 label ,.checklist dt{font-size:16px; color:#666;}
+    .actionan{padding-top:15px; position:absolute; bottom:20px; width:88%;}
+    .btn_action{width:100%; background:#bb0a0a; color:#fff; display:block; height:40px; line-height:40px; border-radius:2px; text-decoration:none; text-align:center;}
+    .btn_action:hover{background: #a70101;}
+    .task_two{display:none;}
+    .tack_laoding{text-align:center;display:none;}
+    .tack_laoding h2{font-size: 30px; letter-spacing:5px; color:#0e2753; margin-top:20px; font-weight:normal;}
+    .tack_laoding h3{margin-top:15px;}
+    .tack_laoding h3 b{color:#1e9223;}
+    .tack_laoding span{width:220px; margin:15px auto; display:block;}
+
+    .clear{clear:both;}
+    .tabcontant2_txt1{border:1px dotted #ccc; margin-top:12px; height:40px;border-radius:4px; padding:5px 0px; display:inline-block;}
+    .tabcontant2_txt1 b,.tabcontant2_txt1 li{float:left;}
+    .tabcontant2_txt1 b{color:red; width:74px; font-size:16px; line-height:40px; text-align:center; border-right:1px dotted #ccc;}
+    .tabcontant2_txt1 li{width:190px; padding-left:45px; line-height:20px; background:url(../images/xin.png) no-repeat 25px center;}		
+	.btn_fail a{width:48%; height:45px; line-height:45px; text-decoration:none; border-radius:4px;}
+    .fr{float:right;}
+    .fl{float:left;}
+    .dis_fg_block:hover .dis_black_fg{display:block; position:relative;}
+    .dis_black_fg{border-radius:5px; border:1px solid #1e9223; background:#fff; color:#222; text-align:left; width:200px; padding:5px; font-size:14px; line-height:20px; left:-30px; display:none; position:absolute; top:-100px;}
+    .dis_black_fg em{background:url(../images/pic/xiangshang.png); width:15px; height:9px; top:50px; left:45%; position:absolute; display:block;}   
+  
+  
+  
+  
+  
+   
+   
+   
+		

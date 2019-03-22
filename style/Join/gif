@@ -1,0 +1,9 @@
+<h1>CHttpException</h1>
+<p>系统无法找到请求的 "error" 动作. (D:\wwwroot\shuashou\wwwroot\framework\web\CController.php:483)</p><pre>#0 D:\wwwroot\shuashou\wwwroot\framework\web\CController.php(270): CController->missingAction('error')
+#1 D:\wwwroot\shuashou\wwwroot\framework\web\CWebApplication.php(282): CController->run('error')
+#2 D:\wwwroot\shuashou\wwwroot\framework\base\CErrorHandler.php(331): CWebApplication->runController('site/error')
+#3 D:\wwwroot\shuashou\wwwroot\framework\base\CErrorHandler.php(204): CErrorHandler->render('error', Array)
+#4 D:\wwwroot\shuashou\wwwroot\framework\base\CErrorHandler.php(129): CErrorHandler->handleException(Object(CHttpException))
+#5 D:\wwwroot\shuashou\wwwroot\framework\base\CApplication.php(720): CErrorHandler->handle(Object(CExceptionEvent))
+#6 [internal function]: CApplication->handleException(Object(CHttpException))
+#7 {main}</pre>

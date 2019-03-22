@@ -1,0 +1,122 @@
+
+
+
+#BrushAcceptManage
+        {
+            background: #a70101;
+            color: White;
+        }
+         #a1 
+        {
+             color:Red;
+        }
+        #a1:hover 
+        {
+             color:Black;
+        }
+        .sjzc_t1
+        {
+            width: 800px;
+            height: auto;
+            position: absolute;
+            height: auto;
+            z-index: 1004;
+            overflow: auto;
+            background: #fff;
+            font-size: 14px;
+            font-family: "Microsoft YaHei";
+        }
+        #ow_confirm002_fun
+        {
+            width: 120px;
+            height: 35px;
+            line-height: 35px;
+            text-align: center;
+            display: block;
+            background: #1e9223;
+            color: #fff;
+            -webkit-border-radius: 20px;
+            -moz-border-radius: 20px;
+            -ms-border-radius: 20px;
+            -o-border-radius: 20px;
+            border-radius: 20px;
+        }
+        #ow_confirm002_fun:hover
+        {
+            background: #e58a01;
+        }
+        
+        #ow_confirm002_fun2
+        {
+            width: 120px;
+            height: 35px;
+            line-height: 35px;
+            text-align: center;
+            display: block;
+            background: #4882f0;
+            color: #fff;
+            -webkit-border-radius: 20px;
+            -moz-border-radius: 20px;
+            -ms-border-radius: 20px;
+            -o-border-radius: 20px;
+            border-radius: 20px;
+        }
+        #ow_confirm002_fun2:hover
+        {
+            background: #2f6fea;
+        }
+        .sjzc_1_t
+        {
+            height: 50px;
+            background: #4882f0;
+        }
+        .htyg_tc
+        {
+            height: 50px;
+            background: #4882f0;
+        }
+        .htyg_tc_1
+        {
+            float: left;
+            line-height: 50px;
+            margin-left: 15px;
+            font-size: 16px;
+            color: #fff;
+        }
+  
+  
+    
+  
+  
+   
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

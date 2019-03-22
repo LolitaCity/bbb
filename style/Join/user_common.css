@@ -1,0 +1,384 @@
+  body , ul,li {margin:0; padding:0; color: #222; font-family: "Microsoft YaHei";}
+  ul, ol, li, h1, h2, h3, h4, h5, h6, p {
+color: #222;
+font-family: "Microsoft YaHei";
+font-size: 14px;
+}
+  ol , ul {list-style:none;}
+  a {color:#222; text-decoration:none;}
+  a:focus{outline:none;} /*for ff f6n.net*/
+  a:hover {text-decoration:none;}
+    .cpcenters{ position: relative; z-index: 1000; width: 100%; background: #bb0a0a;height:53px; line-height: 53px;}
+  .cpcenters .lside>ul{ width: 1200px; position: relative; margin: 0px auto;}
+  .cpcenters .lside>ul>li{ float: left; height: 50px; line-height: 50px; position:relative;border-bottom: 3px solid #bb0a0a; }
+  .cpcenters .lside>ul>li:hover>a{ color:#fff;}
+  .cpcenters .lside>ul>li>a{ width: 170px; height: 52px; text-align: center; border-top:none; line-height: 53px;display:block; font-size: 14px; color: #fff; text-decoration: none;}
+  .cpcenters .lside>ul>li>em{ background:url('../images/daohanem.png') no-repeat; width: 7px; height: 4px; display: block; position: absolute; top: 24px; left: 122px;}
+  .cpcenters .lside>ul>li:hover>em{ background:url('../images/daohanem.png') no-repeat center -7px; width: 7px; height: 4px; display: block; position: absolute; top: 24px; left: 122px;}
+  .cpcenters .lside>ul>li:hover{ background:#a70101; border-bottom: 3px solid #1e9223; height: 50px; font-weight:bold;}
+  .cpcenters .lside>ul>li>span{ display: block; width: 15px; height: 42px;}
+  .cpcenters .lside>ul>li ul{ display: none; background: #fff; border-top: none;}
+  .cpcenters .lside>ul>li ul li{ height: 42px; line-height: 42px; text-align: center; }
+  .cpcenters .lside ul li ul li a{ display: inline-block; color: #000; width: 150px; margin:0px auto; border-bottom: 1px dotted #ccc; font-weight: normal;  border-top: none; font-size: 14px;}
+  .cpcenters .lside>ul>li:hover ul{ display: block; width: 170px;border:1px dotted #ccc; border-top: none;}
+  .cpcenters .lside>ul>li ul li a:hover{ color: #1e9223; display:inline-block; width:150px;  font-weight: normal; }
+   .cmtab
+    {
+        line-height: 35px;
+        right: -4px;
+        bottom: 69px;
+        position: fixed;
+        z-index: 1000;
+        background: #828282;
+        color: #fff;
+        border-radius: 5px;
+        display: none;
+    }
+    .cmtab div
+    {
+        width: 102px;
+        font-size: 14px;
+        text-align: left;
+        padding-left: 10px;
+        cursor: pointer;
+        height: 40px;
+        line-height: 40px;
+        border-bottom: 1px solid #989898;
+    }
+    .cmtab div.cur, .cmtab div:hover
+    {
+        color: #fff;
+        background: #bb0a0a;
+    }
+    .cmtab div em
+    {
+        width: 20px;
+        height: 32px;
+        float: left;
+        margin-right: 5px;
+    }
+    .cmtab div span
+    {
+        display: none;
+    }  .cmtab div.cur span
+    {
+        background: url(../images/jt_left_2.png) no-repeat left 0px;
+        display: block;
+        width: 15px;
+        height: 30px;
+        margin-top: 10px;
+        position: absolute;
+        left: -6px;
+        z-index: 2000;
+    }
+    .black_overlaytc
+    {
+        display: none;
+        position: fixed;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        height: 100%;
+        background-color: #000;
+        z-index: 101;
+        -moz-opacity: 0.1;
+        opacity: .1;
+        filter: alpha(opacity=1);
+    }
+    .flow1
+    {
+        position: fixed;
+        z-index: 3000;
+        bottom: 20px;
+        right: 111px;
+        background: #fff;
+        border: 2px solid #bb0a0a;
+        width: 410px;
+        height: 554px;
+        overflow: hidden;
+        border-radius: 15px;
+    }  .flow1 h2
+    {
+        background: #bb0a0a;
+        height: 58px;
+        font-size: 16px;
+        line-height: 58px;
+        color: #fff;
+        padding: 0px 20px;
+    }
+    .flow1 h2 span
+    {
+        float: right;
+        font-weight: normal;
+        width: 35px;
+        height: 44px;
+        margin-top: 4px;
+        cursor: pointer;
+    }
+    .flow1 ul
+    {
+        padding: 10px 20px;
+        display: inline-block;
+        width: 370px;
+    }
+    .flow1 ul li
+    {
+        padding-bottom: 4px;
+        margin-bottom: 5px;
+        display: inline-block;
+        border-bottom: 1px dotted #ccc;
+        width: 100%;
+    } 
+   .flow1 ul li span
+    {
+        border-radius: 100%;
+        display: block;
+        color: #fff;
+        float: left;
+        width: 20px;
+        margin: 4px 5px 0px 0px;
+        height: 20px;
+        text-align: center;
+        line-height: 22px;
+    }
+    .bg_grey
+    {
+        background: #828282;
+    }
+    .bg_blue
+    {
+        background: #bb0a0a;
+    }
+    .flow1 ul li h3
+    {
+        line-height: 30px;
+        cursor: pointer;
+    }
+    .huida
+    {
+        width: 100%;
+        padding: 5px 0px;
+        display: none;
+        position: relative;
+    } 
+  .huida p
+    {
+        line-height: 25px;
+        float: left;
+        width: 300px;
+        display: inline-block;
+        background: #bb0a0a;
+        color: #fff;
+        border-radius: 8px;
+        padding: 5px;
+        margin-left: 6px;
+    }
+    .huida em
+    {
+        display: block;
+        width: 6px;
+        height: 11px;
+        position: absolute;
+        left: 25px;
+        top: 20px;
+    }
+    .gundong
+    {
+        height: 500px;
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+    .zj_1 em
+    {
+        background: url(../images/tc1.png) no-repeat left -30px;
+    }
+    .zj_1:hover em, .zj_1.cur em
+    {
+        background: url(../images/tc1.png) no-repeat left 12px #bb0a0a;
+    } 
+   .zj_2 em
+    {
+        background: url(../images/tc2.png) no-repeat left -29px;
+    }
+    .zj_2:hover em, .zj_2.cur em
+    {
+        background: url(../images/tc2.png) no-repeat left 9px #bb0a0a;
+    }
+    .zj_3 em
+    {
+        background: url(../images/tc3.png) no-repeat left -28px;
+    }
+    .zj_3:hover em, .zj_3.cur em
+    {
+        background: url(../images/tc3.png) no-repeat left 9px #bb0a0a;
+    }
+    .zj_4 em
+    {
+        background: url(../images/tc4.png) no-repeat left -45px;
+    }
+    .zj_4:hover em, .zj_4.cur em
+    {
+        background: url(../images/tc4.png) no-repeat left 12px #bb0a0a;
+    }
+    .zj_5 em
+    {
+        background: url(../images/tc5.png) no-repeat left -45px;
+    }
+    .zj_5:hover em, .zj_5.cur em
+    {
+        background: url(../images/tc5.png) no-repeat left 12px #bb0a0a;
+    }
+	 .zj_6 em
+    {
+        background: url(../images/tc6.png) no-repeat left -45px;
+    }
+       .zj_7 em
+    {
+        background: url(../images/tc7.png) no-repeat left -45px;
+    }
+.zj_7:hover em, .zj_7.cur em
+    {
+        background: url(../images/tc7.png) no-repeat left 10px #bb0a0a;
+    }
+    .zj_6:hover em, .zj_6.cur em
+    {
+        background: url(../images/tc6.png) no-repeat left 12px #bb0a0a;
+    }
+    .close_1
+    {
+        float: right;
+        font-weight: normal;
+        background: url(../images/sj-tc.png);
+        width: 35px;
+        height: 44px;
+        margin-top: 4px;
+        cursor: pointer;
+    }	
+  .cjwtf90
+    {
+        position: fixed;
+        right: -4px;
+        bottom: 30px;
+        color: #fff;
+        width: 72px;
+        height: 40px;
+        cursor: pointer;
+        border-radius: 4px;
+        z-index: 1001;
+        line-height: 40px;
+        background: url(../images/question1.png) no-repeat 10px center #1e9223;
+        font-size: 14px;
+        padding-left: 40px;
+    }
+    .cjwt488
+    {
+        position: fixed;
+        right: -4px;
+        bottom: 30px;
+        color: #fff;
+        width: 72px;
+        height: 40px;
+        cursor: pointer;
+        border-radius: 4px;
+        z-index: 1001;
+        line-height: 40px;
+        background: url(../images/shouqi.png) no-repeat 10px center #bb0a0a;
+        font-size: 14px;
+        padding-left: 40px;
+    }
+.hdtop h1
+{
+	float: left;
+}
+.shury_1
+{
+	position: absolute;
+	right: 0px;
+}
+.exit_i, .hy_state
+{
+	float: left !important;
+}
+.hy_state img
+{
+	width: 50px;
+	height: 50px;
+	border-radius: 100%;
+	margin-right: 10px;
+	float: left;
+	border: 1px #fff solid;
+}
+.hy_state span
+{
+	float: left;
+}
+.hy_state
+{
+	padding-right: 25px;
+}
+.hy_state span
+{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	height: 53px;
+	margin-top: 12px;
+	font-size: 15px;
+}
+.hy_state img:hover
+{
+	-webkit-box-shadow: 0 3px 7px #BFBFBF !important;
+	border: 1px #fff solid;
+	-moz-box-shadow: 0 3px 7px #BFBFBF !important;
+	box-shadow: 0 3px 7px #BFBFBF !important;
+}
+.hy_state a:hover em
+{
+	color: red;
+}
+.hy_state a:hover
+{
+	color: #222;
+}
+.exit_i
+{
+	font-size: 12px;
+	background: #bb0a0a;
+	color: #fff;
+	border-radius: 4px;
+	height: 23px;
+	line-height: 23px;
+	margin-top: 25px;
+	width: 40px;
+	text-align: center;
+}
+.exit_i:hover
+{
+	background: #ce0a0a;
+}
+.hy_state span b
+{
+	font-weight: bold;
+	display: block;
+	font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

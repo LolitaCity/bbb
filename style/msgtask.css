@@ -1,0 +1,80 @@
+ div{    font-family: "微软雅黑";}
+        .navbg {
+	width: 100%;
+	height: 48px;
+	background: #0866c6;
+	overflow: hidden;
+}
+.nav {
+	--width: 73%;--sz0610
+	margin: 0 auto;
+	font-size: 14px;
+}
+.nav li {
+	float: left;
+	display: inline;
+}
+.nav a {
+	color: #fff;
+	line-height: 48px;
+	padding: 0 23px;
+	display: block;
+	height: 48px;
+	float: left;
+}
+.nav a:hover, .nav a.a_on {
+	background: #0756a6;
+	color: #fff;
+	text-decoration: none;
+}
+.nav li.frt-btn {
+	float: right;
+}
+.nav li.frt-btn a {
+	background: #86ce4b url(images/indexicon.png) no-repeat 17px -232px;
+	width: 126px;
+	padding: 0;
+	text-align: left;
+	text-indent: 51px;
+}
+.nav li.frt-btn a:hover {
+	background: #7dc840 url(images/indexicon.png) no-repeat 17px -232px;
+}
+        
+.sj-nav {
+    font-family: "微软雅黑";
+    font-size: 14px;
+    height: 50px;
+    margin: 0 auto;
+    width: 1200px;
+}
+          .sj-nav li a {
+    color: #fff;
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    width: 100px;
+}
+        caption, th
+        {
+            text-align: center;
+        }
+        .input-radio16
+        {
+            border: 1px solid #ddd;
+            height: 15px;
+            width: 16px;
+        }
+        .black_overlay
+        {
+            background-color: black;
+            display: none;
+            height: 100%;
+            left: 0;
+            opacity: 0.8;
+            position: absolute;
+            top: 0;
+            width: 100%;
+            z-index: 1001;
+        }

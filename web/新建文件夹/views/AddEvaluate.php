@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title></title>
+    <script src="<?=base_url()?>style/jquery-1.8.3.js" type="text/javascript"></script>
+    <script src="<?=base_url()?>style/jquery.jslides.js" type="text/javascript"></script>
+    <script src="<?=base_url()?>style/open.win.js" type="text/javascript"></script>
+    <script src="<?=base_url()?>style/jquery.jBox-2.3.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="<?=base_url()?>style/jbox.css">
+    <link rel="stylesheet" type="text/css" href="<?=base_url()?>style/common.css">
+    <link rel="stylesheet" type="text/css" href="<?=base_url()?>style/index.css">
+    <link rel="stylesheet" type="text/css" href="<?=base_url()?>style/open.win.css">
+    
+</head>
+<body style="background: #fff;">
+    <!--列表 -->
+    <div class="htyg_tc">
+        <ul>
+            <li class="htyg_tc_1" style="font-family: Microsoft YaHei;">发布评价任务</li>
+            <li class="htyg_tc_2"><a href="javascript:void(0)" id="imgeColse" onclick="javascript:self.parent.$.closeWin()"><img src="<?=base_url()?>style/images/sj-tc.png"></a> </li>
+        </ul>
+    </div>
+
+    <script language="javascript">
+        function ok() {
+            var msg = '';
+            if ($("#ExpressCompany").val() == '') {
+                msg = "还没有填写快递公司名称", "提示";
+            }
+            if ($("#ExpressNumber").val() == '') {
+                msg = "请填写快递单号", "提示";
+            }
+
+            if (msg != '') {
+                $.openAlter(msg, "提示");
+            } else {
+                $("#fm").submit(); //提交表单
+            }
+        }
+    </script>
+    <style>
+    .sk-zjgl_5 {
+        margin-top: 0px;
+    }
+    </style>
+<form action="<?=site_url('sales/addEvaluateDB')?>" id="fm" method="post" enctype="multipart/form-data"><style>
+    .infobox
+    {
+        background-color: #fff9d7;
+        border: 1px solid #e2c822;
+        color: #333333;
+        padding: 5px;
+        padding-left: 30px;
+        font-size: 13px;
+        --font-weight: bold;
+        margin: 0 auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 85%;
+        text-align: left;
+    }
+    .errorbox
+    {
+        background-color: #ffebe8;
+        border: 1px solid #dd3c10;
+        margin: 0 auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        color: #333333;
+        padding: 5px;
+        padding-left: 30px;
+        font-size: 13px;
+        --font-weight: bold;
+        width: 85%;
+    }
+</style>
+        <div class="errorbox" id="clientValidation" style="display: none;">
+            <ol style="list-style-type: decimal" id="clientValidationOL">
+            </ol>
+        </div>
+    <input id="TaskID" name="TaskID" type="hidden" value="<?=$info->tasksn?>">
+    <input id="id" name="id" type="hidden" value="<?=$info->id?>">
+    <div class=" ycgl_tc_1" style="width: 650px">
+            <div class="ycgl_tc_1" style="margin-top: 10px; margin-left: 10px">
+                <ul>
+                        <li style="margin-top: 10px">
+                            <p class="sk-zjgl_4">评价内容：</p>
+                            <p>
+                                <textarea name="content" type="text" value="" placeholder="请输入评价要求/评价内容" style="border: 1px solid #ccc; width: 400px;height: 150px;line-height: 30px;float: left;"></textarea>
+                               </p>
+                        </li>
+                        <li style="margin-top: 10px">
+                            <p class="sk-zjgl_4">图片评价：</p>
+                            <p style=" line-height: 35px; font-size: 16px;"><input name="picstatus" type="radio" value="1" style="border: 1px solid #ccc;width: 25px;height: 25px;line-height: 35px;float: left;" checked> &nbsp; 是</p>
+                            <p style=" line-height: 35px; font-size: 16px; padding-left: 15px;"><input name="picstatus" type="radio" value="0" style="border: 1px solid #ccc;width: 25px;height: 25px;line-height: 35px;float: left;">  &nbsp; 否</p>
+                        </li>
+                    <div class="multipleinfo">
+                        <li class="sk-zjgl_5 " style="margin-top: 10px">
+                            <p class="sk-zjgl_4">
+                                评价图片：</p>
+                                <p ><input name="inputimage[]" type="file" multiple="multiple" style="border: 1px solid #ccc;    width: 300px;    height: 35px;    line-height: 35px;    float: left; vertical-align: middle"></p>
+                        </li>
+                        <li class="sk-zjgl_5" style="margin-top: 10px">
+                            <div class="d1" style="color: red; font-size: 12px; padding: 0 30px 0 20px;">
+                                温馨提醒：发布图片评价时需提供图片给到买手，请上传给到买手的用于评价的图片（一次性选择多张图片提交保存即可）~
+                            </div>
+                        </li>
+                    </div>
+                    <li class="sk-zjgl_5" style="margin-top: 10px">
+                        <div class="d1" style="color: red; font-size: 12px; padding: 0 30px 0 20px;">
+                            温馨提醒：仅提交文字评价任务所需佣金（<?=$word->value?>）元~<br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                    提交图文评价任务所需佣金（<?=$pic->value?>）元~
+                        </div>
+                    </li>
+                    <li class="fpgl-tc-qxjs_4">
+                        <p>
+                            <input class="input-butto100-hs" type="button" value="确定提交" id="btnSubmit" onclick="ok()">
+                           <input type="hidden" id="submitCnt" value="0">
+                        </p>
+                        <p>
+                            <input onclick="self.parent.$.closeWin()" class="input-butto100-ls" type="button" value="返回退出" id="bntColse"></p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+</form>
+    <script>
+        $(function(){
+            $(":radio").click(function(){
+                if($(this).val()==1){
+                    $(".multipleinfo").slideDown(1000);
+                }else{
+                    $(".multipleinfo").slideUp(1000);
+                }
+            });
+        });
+    </script>
+
+</body></html>

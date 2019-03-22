@@ -1,0 +1,1 @@
+<input id="d" onclick="laydate({format:'YYYY-MM'})" class="laydate-icon">
